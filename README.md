@@ -11,5 +11,5 @@
 - Insert `cd TractorProject-Backend`
 - if you don't have nodeJS on your device, install https://nodejs.org/en/download/
 - Insert the `npm i` to install all dependencies.
-- Insert the `tsc` to build.
-- Insert `node ./dist/src/index.js` to run.
+- Insert the `npm run dev` to build and watch.
+- In the new terminal on TractorProject-Backend folder insert `npm run start` to run and watch.
