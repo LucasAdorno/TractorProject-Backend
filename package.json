@@ -20,6 +20,7 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start": "nodemon src/index.js"
+    "dev": "tsc -w",
+    "start": "nodemon dist/src/index.js"
   }
 }
