@@ -1,11 +1,11 @@
-const express = require('express');
+import * as express from 'express';
 
-const UsersController = require('./controllers/UsersController');
+import UsersController from './controllers/UsersController';
 
 const routes = express.Router();
 
 routes.get('/users', UsersController.index);
 routes.post('/users', UsersController.create);
 
-module.exports = routes;
+export default routes;
 
